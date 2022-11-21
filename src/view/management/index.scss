@@ -1,0 +1,89 @@
+.ant-layout {
+  height: 100vh;
+  width: 100vw;
+  .ant-layout-header {
+    background: #d1c1c1;
+    font-family: "Great Vibes", cursive !important;
+    font-size: 25px;
+    color: ff0056;
+    font-weight: 700;
+    color: #ff0056;
+  }
+  .ant-layout-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    .background-ptit {
+      background: url("../../image/HVcsHaDong.png");
+      height: calc(100% - 64px);
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      opacity: 0.6;
+    }
+    .content-title {
+      width: 100%;
+      color: #ff0056;
+      font-family: "Great Vibes", cursive !important;
+      font-size: 45px !important;
+      line-height: 50px !important;
+      font-weight: bold !important;
+      margin-bottom: 0px;
+      margin-top: 40px;
+      text-align: center;
+      text-shadow: 0 1px 1px #fff;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    .btn-wrapper {
+      margin-bottom: 60px;
+      margin-left: 75px;
+      display: flex;
+      align-content: stretch;
+      justify-content: start;
+      align-items: center;
+      justify-items: stretch;
+      flex-direction: row;
+      gap: 70px;
+      .ant-btn {
+        font-size: 22px !important;
+        font-weight: 600;
+        padding: 10px 11px;
+        font-size: 16px;
+        color: #536c85;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        width: fit-content;
+        line-height: 1.5715;
+        position: relative;
+        white-space: nowrap;
+        text-align: center;
+        background-image: none;
+        border: 1px solid transparent;
+        box-shadow: 0 2px 0 1px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+        user-select: none;
+        touch-action: manipulation;
+        height: fit-content;
+        font-size: 14px;
+        border-radius: 32px;
+        background: #d1c1c1;
+        color: #ff0056;
+        &:hover {
+          border: 1px solid #ff0056;
+          transform: translateY(-3px);
+        }
+      }
+    }
+  }
+}
